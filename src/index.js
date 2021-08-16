@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import  Header from './common/header/Header';
+import  Home from './screens/home/Home.js';
+import  SingleLineImageList from './Imagelist.js';
+import ReleasedMovies from './Releasedmovies.js';
+import {Link} from 'react-dom';
 import './index.css';
 
 
@@ -8,7 +12,12 @@ import './index.css';
 ReactDOM.render(
   <div>
     <Header />
-    </div>
+    <Home />
+    <SingleLineImageList />
+   <ReleasedMovies />
+   <Link to='/.Details' ><moviesData src="poster_url"/></Link>
+  
+  </div>
  ,
   document.getElementById('root')
 );
