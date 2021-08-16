@@ -1,0 +1,12 @@
+.flex-container{
+    display: flex;
+    margin: 16px;
+}
+   
+.left{
+    width: 76%;
+}
+   
+.right{
+    width:24%;
+}
