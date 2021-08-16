@@ -15,7 +15,7 @@ ReactDOM.render(
     <Home />
     <SingleLineImageList />
    <ReleasedMovies />
-   <Link to='/.Details' ><moviesData src="poster_url"/></Link>
+   <Link to='/.Details'><moviesData src={poster_url}></Link>
   
   </div>
  ,
